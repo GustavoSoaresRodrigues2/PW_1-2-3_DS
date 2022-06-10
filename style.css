@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+form {
+    border: 1px solid #000;
+    padding: 2rem;
+    border-radius: 0.4rem;
+}
+
+#tabela {
+    border: 1px solid #000;
+    padding: 1rem;
+    justify-content: space-around;
+}
+tr {
+    border-right: 1px solid #000;
+}

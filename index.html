@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="custon.css">
+        <meta charset="utf-8">
+    </head>
+    <title>Aula 05 PW</title>
+    <body>
+        <!--Tabela de Aluno-->
+        <table id="tabela">
+            <tr>
+                <td>Aluno</td>
+                <td>Nota 1</td>
+                <td>Nota 2</td>
+                <td>Nota 3</td>
+                <td>Média</td>
+            </tr>
+            <tr>
+                <td>Marcos</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Juliana</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>7</td>
+                <td>5</td>
+                <td>4</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Kaique</td>
+                <td>10</td>
+                <td>9</td>
+                <td>10</td>
+                <td></td>
+                </tr>
+            </table>
+
+            <!--Formulário de Cadastro-->
+            <div id="div_form">
+                <form>
+                    <H2>Formulário de Cadastro</H2>
+                    <div class="form_Cadastro">
+                        <label>Nome:</label>
+                        <input type="text" class="nome" placeholder="Digite seu nome">
+                    </div>
+                    <p></p>
+                    <div class="form-group">
+                        <label>Nota 1:</label>
+                        <input type="text" class="nota1"  placeholder="Nota 1">
+                        <p></p>
+                        <label>Nota 2:</label>
+                        <input type="text" class="nota2"  placeholder="Nota 2">
+                        <p></p>
+                        <label>Nota 3:</label>
+                        <input type="text" class="nota3"  placeholder="Nota 3">
+                    </div>
+                    <p></p>
+                    <button type="submit" id="btn_inserir">Inserir</button>
+                </form>
+            </div>
+            <script src="./calcular_media.js"></script>
+            <script src="./inserir_aluno.js"></script>
+    </body>
+</html>
