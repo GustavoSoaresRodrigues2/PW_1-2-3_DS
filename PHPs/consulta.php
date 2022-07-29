@@ -1,6 +1,6 @@
 <?php
-    require './bd_conectar.php';
-    require './aluno.php';
+    require 'bd_conectar.php';
+    require 'aluno.php';
 
     header('Access-Control-Allow-Origin:*');
 
@@ -8,7 +8,7 @@
 
     $query = "SELECT * FROM Tbl_Aluno";
 
-    $resultado = mysqli_query($conexao, $query) or die ("Eroo ao tentar Consultar");
+    $resultado = mysqli_query($conexao, $query) or die ("Erro ao tentar Consultar");
 
     $array = [];
     

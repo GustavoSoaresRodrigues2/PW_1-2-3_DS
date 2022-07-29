@@ -1,5 +1,5 @@
 <?php
-    require './aluno.php';
+    require 'aluno.php';
 
     $aluno1 = new Aluno ('Jorge',4,5,6);
     $aluno2 = new Aluno ('Pedro',7,8,9);

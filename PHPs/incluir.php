@@ -1,5 +1,5 @@
 <?php
-    require './bd_conectar.php';
+    require 'bd_conectar.php';
 
     $conexao = abrirConexao();
 
